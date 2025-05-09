@@ -7,7 +7,7 @@ pipeline {
     }
 
     environment{
-        REPO_URI = "975050033181.dkr.ecr.ap-northeast-1.amazonaws.com/johan-movie-service"
+        REPO_URI = "975050033181.dkr.ecr.ap-northeast-1.amazonaws.com/peter-movie-service"
         REPO_REGISTRY_URL = "https://975050033181.dkr.ecr.ap-northeast-1.amazonaws.com"
         REGION = "ap-northeast-1"
     }
