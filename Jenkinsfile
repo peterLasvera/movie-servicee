@@ -1,26 +1,24 @@
 pipeline {
     agent any
 
-    }
     stages {
         stage('Test') {
-            }
             steps {
-                echo "Docker Build JENKINS"
-
+                echo 'Hello'
             }
         }
+
     }
 
     post{
         always{
-            echo 'This for always notify'
+            echo "This for always notify"
         }
         success{
-            echo 'notify success'
+            echo "Nofify Success"
         }
         failure{
-            echo 'notify failure'
+            echo "Nofify Failure"
         }
     }
 }
